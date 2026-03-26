@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C76C529-E84C-518B-F1E3-9FCDC38AC2E4" name="ALUNO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-03-26 11:46:51 UTC</createdTime>
+<ownerDesignName>aula-04</ownerDesignName>
+<engineerTo>
+<item key="0C622011-B1DE-BD9E-2866-B093E9396705" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="9682DF9E-C218-FBB6-322B-FBD1F16959BF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-03-26 11:58:22 UTC</createdTime>
+<ownerDesignName>aula-04</ownerDesignName>
+<engineerTo>
+<item key="0C622011-B1DE-BD9E-2866-B093E9396705" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nascimento" id="5E82007E-3188-481C-5325-23465D35B55C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-03-26 11:58:54 UTC</createdTime>
+<ownerDesignName>aula-04</ownerDesignName>
+<engineerTo>
+<item key="0C622011-B1DE-BD9E-2866-B093E9396705" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rm" id="07CE43A8-4309-B1A9-28B4-C0C557B91D69">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-03-26 11:59:05 UTC</createdTime>
+<ownerDesignName>aula-04</ownerDesignName>
+<engineerTo>
+<item key="0C622011-B1DE-BD9E-2866-B093E9396705" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo_biologico" id="BA576042-D908-2103-AE57-12C78E229735">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-03-26 11:59:14 UTC</createdTime>
+<ownerDesignName>aula-04</ownerDesignName>
+<engineerTo>
+<item key="0C622011-B1DE-BD9E-2866-B093E9396705" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="F21BBAF5-9B59-E4A9-7BAD-E07A967D89B8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-03-26 11:59:50 UTC</createdTime>
+<ownerDesignName>aula-04</ownerDesignName>
+<engineerTo>
+<item key="0C622011-B1DE-BD9E-2866-B093E9396705" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="C8A479DA-AC18-8659-74D1-059FDE27F671">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-03-26 11:59:58 UTC</createdTime>
+<ownerDesignName>aula-04</ownerDesignName>
+<engineerTo>
+<item key="0C622011-B1DE-BD9E-2866-B093E9396705" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="0E3E1DC3-D3EA-0928-EE40-A5DFA2E3EAC3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-03-26 12:00:05 UTC</createdTime>
+<ownerDesignName>aula-04</ownerDesignName>
+<engineerTo>
+<item key="0C622011-B1DE-BD9E-2866-B093E9396705" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
