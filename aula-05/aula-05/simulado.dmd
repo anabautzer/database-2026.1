@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="simulado" id="3B1FA349-85F5-82F6-23BD-8D38DCA9AEBC" version="3.5">
-<createdBy>labsfiap</createdBy>
-<createdTime>2026-04-09 10:59:20 UTC</createdTime>
-<ownerDesignName>simulado</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>3B1FA349-85F5-82F6-23BD-8D38DCA9AEBC</designId>
-</OSDM_Design>
