@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B199AD70-ED3D-C43C-238C-42FB193C5F12" name="ALUNO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-09 11:55:45 UTC</createdTime>
+<ownerDesignName>simulado</ownerDesignName>
+<engineerTo>
+<item key="820B7CBA-6548-E4B6-EF7E-7A04C132E9D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ra" id="60DA9967-E1C8-1DB8-E97A-02C38085FBAC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-09 11:58:46 UTC</createdTime>
+<ownerDesignName>simulado</ownerDesignName>
+<engineerTo>
+<item key="820B7CBA-6548-E4B6-EF7E-7A04C132E9D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_completo" id="F92A8D98-AE4D-14DB-17E3-D7A78D27CA96">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-09 11:59:03 UTC</createdTime>
+<ownerDesignName>simulado</ownerDesignName>
+<engineerTo>
+<item key="820B7CBA-6548-E4B6-EF7E-7A04C132E9D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="245CFF23-C2BB-80B5-E1E4-E311AFACBDA1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-09 11:59:14 UTC</createdTime>
+<ownerDesignName>simulado</ownerDesignName>
+<engineerTo>
+<item key="820B7CBA-6548-E4B6-EF7E-7A04C132E9D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nascimento" id="317F7E2A-A0EC-9BED-BD62-8A28FD206C86">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-09 11:59:21 UTC</createdTime>
+<ownerDesignName>simulado</ownerDesignName>
+<engineerTo>
+<item key="820B7CBA-6548-E4B6-EF7E-7A04C132E9D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="curso" id="0F11C7D2-9237-7675-C3FC-84251A2648A7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-09 11:59:27 UTC</createdTime>
+<ownerDesignName>simulado</ownerDesignName>
+<engineerTo>
+<item key="820B7CBA-6548-E4B6-EF7E-7A04C132E9D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="semestre" id="A488E707-1178-88DC-7A02-92AAEBF41DD9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-09 11:59:30 UTC</createdTime>
+<ownerDesignName>simulado</ownerDesignName>
+<engineerTo>
+<item key="820B7CBA-6548-E4B6-EF7E-7A04C132E9D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4DAA1F1-221B-3A31-1AD7-3E8E55EE18FD" name="ALUNO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-09 12:01:43 UTC</createdTime>
+<ownerDesignName>simulado</ownerDesignName>
+<engineerTo>
+<item key="820B7CBA-6548-E4B6-EF7E-7A04C132E9D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60DA9967-E1C8-1DB8-E97A-02C38085FBAC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
