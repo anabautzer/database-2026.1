@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDAB5423-915A-E1A2-63B1-7CD999395962" name="CONVERSAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:08:41 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_conversao" id="12696AD6-B66A-2F9E-4A34-DFDA830F71A6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:15:43 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade_pontos" id="D1BEB128-3027-3C3D-8482-27984A4351C1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:15:50 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_credito" id="69921C37-FF7E-2432-3FEC-C75CE70A9FD4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:16:03 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_conversao" id="CF954395-03AA-0C8A-A4F9-E26FEC65434B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:16:21 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_responsavel" id="697CB4A7-B623-D556-C824-D93FD88847D9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:16:39 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_aluno" id="77F08E8F-D787-A9BD-EA9B-910AAB0EEBD7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:19:45 UTC</createdTime>
+<generatorID>4E8234CE-2DC3-CE41-B30F-4BA57E6F0BDF</generatorID>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<referedAttribute>1F343141-69C0-401F-D956-438C2AEC811E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_voucher" id="27C7F4B5-41E8-1E43-AC92-7993FDBC2613">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:31:12 UTC</createdTime>
+<generatorID>BCD44C8D-6653-497C-A300-6A4D70CE7AA7</generatorID>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<referedAttribute>3D15A04E-3347-B7F6-2775-CB7D07A2FAD3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EFFE7B52-1444-FB96-3DC7-1029782F9093" name="CONVERSAO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:16:57 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12696AD6-B66A-2F9E-4A34-DFDA830F71A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8D199A6-95A8-3C73-6EDC-303069D07A16" name="CREDITO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:35:13 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_credito" id="97EFE634-B75D-B552-AA5D-A9051CA91D37">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:35:22 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="DC6FD1D6-AF5F-D0E9-07D2-6BEC0F8F3148">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:35:34 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_utilizado" id="851CFFFC-6EFA-7C93-8A08-D96C49688CD1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:35:55 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="operadora" id="FF15965C-BF84-7FE0-207D-EDEDAAD008C7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:36:08 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario" id="FC5002CD-7810-5C91-DBFA-C5B41B342940">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:36:17 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_carteira" id="CF0E9440-E2F8-5962-40CB-D76E0C771649">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:37:06 UTC</createdTime>
+<generatorID>B135AE8A-7426-3147-CB39-D8204DE3316B</generatorID>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<referedAttribute>57967B40-5F7D-62E7-5EC0-951D4CFB42F2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3BFA68C-1E43-CFE0-AE39-DDA3A77C1F30" name="CREDITO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:36:26 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97EFE634-B75D-B552-AA5D-A9051CA91D37</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

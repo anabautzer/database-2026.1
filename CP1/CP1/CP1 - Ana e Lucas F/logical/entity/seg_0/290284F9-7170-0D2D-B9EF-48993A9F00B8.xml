@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="290284F9-7170-0D2D-B9EF-48993A9F00B8" name="OPERADORA_TRANSPORTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:07:34 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_operadora" id="4432342A-C71B-55EB-334A-C249791C6A26">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:13:19 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="1DABE7AF-644D-1892-70AE-2E534BA5F4A7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:13:33 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="534419E3-E77F-A93B-BE90-207FC43B66A3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:13:42 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="511594F4-D962-307D-0FDB-5626375BB123">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:13:46 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo" id="6B13D8F5-03B5-6221-9AEB-C519C0D425A8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:30:02 UTC</createdTime>
+<generatorID>ABA14967-C764-4688-BEE1-692302E081AB</generatorID>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<referedAttribute>38FABEFF-4F51-6BB6-E6FF-99F7D45E3B21</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C4ADED2-59C5-4D7A-EA1E-2802D9AADC03" name="OPERADORA_TRANSPORTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:14:01 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4432342A-C71B-55EB-334A-C249791C6A26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

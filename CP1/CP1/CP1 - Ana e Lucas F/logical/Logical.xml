@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B280B267-F905-FF7E-86C5-68723625B5FF" mainViewID="0ED224FF-B51F-5F9A-E3B8-39F9553A5737">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:06:48 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="B135AE8A-7426-3147-CB39-D8204DE3316B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:37:03 UTC</createdTime>
+<ownerDesignName>CP1 - Ana e Lucas F.</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<sourcePk>A3BFA68C-1E43-CFE0-AE39-DDA3A77C1F30</sourcePk>
+<targetPk>3E527B6B-EC1F-33FF-A9BE-71324915A572</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D8D199A6-95A8-3C73-6EDC-303069D07A16</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>48999021-10F5-EEC6-EF74-20C3105EA62C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
