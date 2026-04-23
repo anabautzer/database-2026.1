@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FD8AD4D-8CC8-60B0-1FE0-44A0B1B07292" name="TIPO_MODAL">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:26:40 UTC</createdTime>
+<ownerDesignName>Correção</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo" id="38FABEFF-4F51-6BB6-E6FF-99F7D45E3B21">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:26:54 UTC</createdTime>
+<ownerDesignName>Correção</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="onibus" id="388B825C-3B26-4D50-9CD0-709599D211B0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:27:01 UTC</createdTime>
+<ownerDesignName>Correção</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="metro" id="F0B320AB-F2EA-D4A9-2F46-897285338026">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:27:10 UTC</createdTime>
+<ownerDesignName>Correção</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trem" id="7D029642-7E6F-67B7-2E00-A9BD1703988B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:27:14 UTC</createdTime>
+<ownerDesignName>Correção</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E8263C3-1BED-B77D-7160-98FBDCEB817F" name="TIPO_MODAL PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:27:21 UTC</createdTime>
+<ownerDesignName>Correção</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38FABEFF-4F51-6BB6-E6FF-99F7D45E3B21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
