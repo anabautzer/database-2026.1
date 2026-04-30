@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7CF41EA-E049-5887-3ECB-7BCE9F698774" name="T_VIAGEM">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:30:31 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_viagem" id="A916441C-8DD4-A9DB-A3A5-51D9B5585AFB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:30:41 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_viagem" id="61AA90C6-A66F-34EF-464A-ECCED8A3537E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:30:51 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horario_viagem" id="F03B1D4E-788D-FE57-3832-683B8C181589">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:31:01 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_credito" id="78375D4A-ABC1-229B-A9A3-8E00D8788202">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:35:17 UTC</createdTime>
+<generatorID>C5A5C17F-4EF8-90BB-EDD5-4370BECEC569</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<referedAttribute>97EFE634-B75D-B552-AA5D-A9051CA91D37</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_aluno" id="C1456C03-277B-0BF5-73B3-7AD5673FD64A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:46:18 UTC</createdTime>
+<generatorID>EAC1B1A7-95FA-F5D4-F26C-86924D291676</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<referedAttribute>1F343141-69C0-401F-D956-438C2AEC811E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_linha" id="4DA58956-FB18-711A-E7E4-B054D9700DEE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:46:52 UTC</createdTime>
+<generatorID>0D50D216-2032-085B-CACD-D56632A68199</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<referedAttribute>449D0DA6-E40F-6E2F-4261-0839B9CA503C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6552A835-5269-33ED-F3CD-2C2573F2C38B" name="T_VIAGEM PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:31:20 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A916441C-8DD4-A9DB-A3A5-51D9B5585AFB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

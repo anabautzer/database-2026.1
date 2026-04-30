@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FD8AD4D-8CC8-60B0-1FE0-44A0B1B07292" name="T_TIPO_MODAL">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:26:40 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo" id="38FABEFF-4F51-6BB6-E6FF-99F7D45E3B21">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:26:54 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_modal" id="388B825C-3B26-4D50-9CD0-709599D211B0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:27:01 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E8263C3-1BED-B77D-7160-98FBDCEB817F" name="TIPO_MODAL PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:27:21 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38FABEFF-4F51-6BB6-E6FF-99F7D45E3B21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
