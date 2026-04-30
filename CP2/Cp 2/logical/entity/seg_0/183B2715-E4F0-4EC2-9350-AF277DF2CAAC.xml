@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="183B2715-E4F0-4EC2-9350-AF277DF2CAAC" name="T_MISSAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:24:07 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_missao" id="E813B785-52BE-FF62-4712-E0B11AE38FD8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:25:14 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="2BD2307E-B7AB-D5A8-1727-290A53E7D5B0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:25:20 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_ponto" id="9099B95B-3B97-B00D-2CE8-7EAD2AB8361E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:25:28 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_limite" id="06EC4E49-5D5E-1668-233D-7A1C06824A00">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:26:00 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paticipacao" id="A96B50FF-CEA5-2438-CF54-812DE68A2068">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:42:44 UTC</createdTime>
+<generatorID>A537A92E-6AD2-AD2E-62E6-C3E45E444901</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D266CD0F-8000-70D6-62C1-095BD82A174E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="351724D6-1F99-FB6D-40D3-541F789088E9" name="T_MISSAO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-30 11:27:27 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E813B785-52BE-FF62-4712-E0B11AE38FD8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
