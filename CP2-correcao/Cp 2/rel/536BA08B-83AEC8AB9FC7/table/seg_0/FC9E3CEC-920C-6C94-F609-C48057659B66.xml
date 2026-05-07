@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC9E3CEC-920C-6C94-F609-C48057659B66" name="T_MG_IMPACTO_AMBIENTAL">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>8DE4D4F8-FD97-7732-6B67-7B7E0BF9D7C0</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_impacto" id="D3AC1028-C2F4-6AE2-ED5D-2EC779213818">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>506A9466-13E4-80F5-D2B3-DE34781471C9</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="voucher_utilizado" id="42FF9D40-5BB4-100C-8375-F3D90984FBDE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>6D8A3B84-EBBF-995E-2F7D-FAF833A231AB</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="impacto_evitado" id="69E8979D-5265-F4E3-3DE3-3F109EF1923C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>8792EC35-7319-8418-AAEC-87AFFF26C9B8</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_MG_VOUCHER_id_voucher" id="445F50AD-C856-13DB-7117-00CAFF857C76">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>DC9F6567-3894-7A8B-8501-D2D5AA5958A9</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEA7E693-6122-882E-46F4-5D7946D9D2E6" name="T_MG_IMPACTO_AMBIENTAL_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>2116CBC2-4BEB-E4E0-F511-D43BF0E798E5</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3AC1028-C2F4-6AE2-ED5D-2EC779213818"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20FD83D0-7F3E-FE6A-DF2A-EA37A7509FD5" name="T_MG_IMPACTO_AMBIENTAL__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>00CBF0F0-6D55-345A-A80F-B2B72FF56CCC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="445F50AD-C856-13DB-7117-00CAFF857C76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

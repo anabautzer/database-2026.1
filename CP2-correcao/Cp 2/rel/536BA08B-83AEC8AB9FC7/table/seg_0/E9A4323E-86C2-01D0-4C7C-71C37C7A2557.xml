@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9A4323E-86C2-01D0-4C7C-71C37C7A2557" name="T_MG_LINHA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>E32740C7-3A03-1333-7C5A-D17BE679065D</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<ordsAlias>t_mg_linha_transporte</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_linha" id="BC056A12-47F4-6EFE-9F91-3EC4DEBA5F33">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>449D0DA6-E40F-6E2F-4261-0839B9CA503C</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_linha" id="F95E8CBD-0F58-2EEC-1129-D49A76AF1F26">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>79F943B8-B967-0BAD-DD1E-D8FFBC156A2C</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="origem" id="2EAC9735-397B-53F9-6C6B-CCC6A5CD26A9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>61A899AA-CE83-5BEF-2DBB-9E312D40668D</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="destino" id="400DCDA1-5A9B-D6A9-AFB4-4872D8232F09">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>4D100CDC-AA85-16BC-F41D-2BC0D791A736</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_MG_OPERADORA_id_operadora" id="82126F06-0D54-0434-D7E9-170E58932D7D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>4EA5FF30-5EFE-3452-1D0A-8CB7DA4305AD</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA5E2BE8-0903-3906-132D-969CB87DE068" referredColumn="F4748A9F-AE9C-7398-B371-302E33114C82"/>
+</associations>
+</Column>
+<Column name="T_MG_VIAGEM_id_viagem" id="D8CFBEC2-C9CC-EC4C-A145-DCCE2F42B41B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 12:10:37 UTC</createdTime>
+<generatorID>BEC620C0-2035-7802-7159-A5FF6FFC4F15</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B65E589-361E-AE99-7AE6-BEAD7C80B1E9" referredColumn="D375250C-A8D3-D29F-9497-17F974B12143"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15611D8A-0605-EBDD-49F5-924B4F8AF017" name="T_MG_LINHA_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>E9E4391E-42E0-73F9-07A5-25C5D7EC6405</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC056A12-47F4-6EFE-9F91-3EC4DEBA5F33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE2E0B95-37CA-D416-DB5B-4C55D1034E1A" name="T_MG_LINHA__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 12:10:37 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0D50D216-2032-085B-CACD-D56632A68199</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D8CFBEC2-C9CC-EC4C-A145-DCCE2F42B41B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33B4A8CE-BFA7-52E8-F314-138A4C61E3CB" name="T_MG_LINHA_T_MG_OPERADORA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>4754F903-5B9E-5C18-FCE8-660BEA95AED6</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82126F06-0D54-0434-D7E9-170E58932D7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94E60A79-0E4F-F037-FD65-A88630692F1D" name="T_MG_LINHA_T_MG_VIAGEM_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 12:10:37 UTC</createdTime>
+<generatorID>0D50D216-2032-085B-CACD-D56632A68199</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8CFBEC2-C9CC-EC4C-A145-DCCE2F42B41B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

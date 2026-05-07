@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDF5FD67-8ABF-B622-5F13-F1FC618DFA9D" name="T_MG_VIAGEM">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>A7CF41EA-E049-5887-3ECB-7BCE9F698774</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_viagem" id="D375250C-A8D3-D29F-9497-17F974B12143">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>A916441C-8DD4-A9DB-A3A5-51D9B5585AFB</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_viagem" id="045F3CAC-1319-1366-9AA9-0A01C2712C6F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>61AA90C6-A66F-34EF-464A-ECCED8A3537E</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horario_viagem" id="61D89D5D-7FC5-A6DC-00AD-08D19214EADC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>F03B1D4E-788D-FE57-3832-683B8C181589</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_MG_CREDITO_id_credito" id="42CFE892-32F5-9C3D-CC9C-0C458AF38F17">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>78375D4A-ABC1-229B-A9A3-8E00D8788202</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="872EEE22-CE20-6847-A25A-AB770E16168E" referredColumn="2678E57A-F6D5-47BC-47FF-F6F76CEE6196"/>
+</associations>
+</Column>
+<Column name="T_MG_USUARIO_id_aluno" id="2D05D2C6-7783-A6FF-E3DC-763A5B4728B2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>C1456C03-277B-0BF5-73B3-7AD5673FD64A</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACCDB1A4-44FE-2D28-3A13-5D1B606BB501" referredColumn="8D6C2676-D2AA-2C35-FAB9-CBEDE5CD8459"/>
+</associations>
+</Column>
+<Column name="T_MG_LINHA_id_linha" id="981FF807-629F-538F-99C4-6B98071C934A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>4DA58956-FB18-711A-E7E4-B054D9700DEE</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06684EE3-81DF-4DD2-76D6-24824A6742FF" referredColumn="BC056A12-47F4-6EFE-9F91-3EC4DEBA5F33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADE4B14E-1707-FD11-759C-A276B7544357" name="T_MG_VIAGEM_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>6552A835-5269-33ED-F3CD-2C2573F2C38B</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D375250C-A8D3-D29F-9497-17F974B12143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="256ABA80-B73E-0726-0580-90178340992D" name="T_MG_VIAGEM__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 12:10:37 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0D50D216-2032-085B-CACD-D56632A68199</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="981FF807-629F-538F-99C4-6B98071C934A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4199F840-9FF4-F130-8C63-E2540E1BA53F" name="T_MG_VIAGEM__IDXv1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 12:10:37 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EAC1B1A7-95FA-F5D4-F26C-86924D291676</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2D05D2C6-7783-A6FF-E3DC-763A5B4728B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64F1EAC4-E46B-03E1-FB69-C9DDFCA299D8" name="T_MG_VIAGEM_T_MG_USUARIO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>EAC1B1A7-95FA-F5D4-F26C-86924D291676</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D05D2C6-7783-A6FF-E3DC-763A5B4728B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE6E19BC-199E-B2E6-9BD1-11A118BAF42C" name="T_MG_VIAGEM_T_MG_LINHA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>0D50D216-2032-085B-CACD-D56632A68199</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="981FF807-629F-538F-99C4-6B98071C934A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="452C8B2A-C6F0-4644-8AE8-3EBF0AEBCE0E" name="T_MG_VIAGEM_T_MG_CREDITO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>C5A5C17F-4EF8-90BB-EDD5-4370BECEC569</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42CFE892-32F5-9C3D-CC9C-0C458AF38F17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E98A607-A2BA-CB41-8725-F944D8531F2C" name="T_MG_CONVERSAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>CDAB5423-915A-E1A2-63B1-7CD999395962</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_conversao" id="EB0BBABE-EE59-DC29-4E75-ADF1B4D79856">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>12696AD6-B66A-2F9E-4A34-DFDA830F71A6</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_ponto" id="239F1565-E65A-15E5-2E2F-13A6DE3F0BB9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>D1BEB128-3027-3C3D-8482-27984A4351C1</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_credito" id="FEF1D186-DB8D-5A28-6EDF-210EB350F71A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>69921C37-FF7E-2432-3FEC-C75CE70A9FD4</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_conversao" id="5638E62F-72B1-A34A-EB17-6A6429BA013F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>CF954395-03AA-0C8A-A4F9-E26FEC65434B</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_MG_USUARIO_id_aluno" id="06D4F95B-CF19-8C34-735E-6278867D5A45">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>77F08E8F-D787-A9BD-EA9B-910AAB0EEBD7</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B560616C-3D40-54C6-EABF-6FB6A259358B" referredColumn="8D6C2676-D2AA-2C35-FAB9-CBEDE5CD8459"/>
+</associations>
+</Column>
+<Column name="T_MG_VOUCHER_id_voucher" id="1F4E576E-5FE5-D783-A46B-69C293C1DBAB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>A52D68B0-215E-A16D-018B-822DBFB1874C</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEE2C4B3-3E19-7495-297D-09A1914E3FC3" name="T_MG_CONVERSAO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>EFFE7B52-1444-FB96-3DC7-1029782F9093</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB0BBABE-EE59-DC29-4E75-ADF1B4D79856"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="333D38F5-A6E2-C129-86CB-1D8E9BD67759" name="T_MG_CONVERSAO__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BCD44C8D-6653-497C-A300-6A4D70CE7AA7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1F4E576E-5FE5-D783-A46B-69C293C1DBAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FA3AD18-5684-8134-161E-BE01B5B3C68E" name="T_MG_CONVERSAO_T_MG_USUARIO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>4E8234CE-2DC3-CE41-B30F-4BA57E6F0BDF</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06D4F95B-CF19-8C34-735E-6278867D5A45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

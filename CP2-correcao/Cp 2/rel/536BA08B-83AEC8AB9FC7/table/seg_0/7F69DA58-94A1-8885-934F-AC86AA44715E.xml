@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F69DA58-94A1-8885-934F-AC86AA44715E" name="T_MG_VOUC_OPERA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<ordsAlias>relation_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_MG_OPERADORA_TRANSPORTE_id_operadora" id="1B516F43-DA37-C513-235C-1954BC0316CF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C6AE940-4C36-24AC-5165-941DC7B6A892" referredColumn="F4748A9F-AE9C-7398-B371-302E33114C82"/>
+</associations>
+</Column>
+<Column name="T_MG_VOUCHER_id_voucher" id="E2A74E43-1AE4-FF69-3585-2B6B15B8F1E3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47C5A9E5-F0CD-5892-0EDE-05D913EEDD8C" referredColumn="BE7B799F-EF6E-4AA1-BE04-4FD50CE4603C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D49E8BB1-D13A-BDE5-FB56-BD3C654E07E6" name="Relation_7_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B516F43-DA37-C513-235C-1954BC0316CF"/>
+<colUsage columnID="E2A74E43-1AE4-FF69-3585-2B6B15B8F1E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E92F6AEA-E8F4-379A-6673-FFC31419D6A0" name="Relation_7_T_MG_OPERADORA_TRANSPORTE_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>7752774C-40F0-373B-03E3-BBD0F01AA78D</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B516F43-DA37-C513-235C-1954BC0316CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3EAC564-91EA-C803-DE4B-729B4A4E8607" name="Relation_7_T_MG_VOUCHER_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>7752774C-40F0-373B-03E3-BBD0F01AA78D</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2A74E43-1AE4-FF69-3585-2B6B15B8F1E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

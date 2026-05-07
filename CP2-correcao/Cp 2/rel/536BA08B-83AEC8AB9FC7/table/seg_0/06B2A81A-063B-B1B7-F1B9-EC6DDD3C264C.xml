@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06B2A81A-063B-B1B7-F1B9-EC6DDD3C264C" name="T_MG_TIPO_MODAL">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>1FD8AD4D-8CC8-60B0-1FE0-44A0B1B07292</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo" id="E64F1FC4-C04D-3646-AD09-0C6CB75D09BA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>38FABEFF-4F51-6BB6-E6FF-99F7D45E3B21</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_modal" id="0CEF27C5-3858-5B31-7332-F8F7615E45E2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>388B825C-3B26-4D50-9CD0-709599D211B0</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_MG_OPERADORA_id_operadora" id="CB93C680-46DF-08C0-056F-EFA8BE36918D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 12:10:37 UTC</createdTime>
+<generatorID>18A23CBC-9F98-9959-E046-55DA889BBD22</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF0A04A6-7730-ACAE-ED7C-BB1BCEE3E616" referredColumn="F4748A9F-AE9C-7398-B371-302E33114C82"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E04D42E-CC2C-0751-CE72-06038E75256E" name="T_MG_TIPO_MODAL_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>4E8263C3-1BED-B77D-7160-98FBDCEB817F</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E64F1FC4-C04D-3646-AD09-0C6CB75D09BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFF60C9C-C16A-7093-D361-FE732A007525" name="T_MG_TIPO_MODAL__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 12:10:37 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>ABA14967-C764-4688-BEE1-692302E081AB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CB93C680-46DF-08C0-056F-EFA8BE36918D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CFD158C-1D1D-306A-03C0-B91FAE917B43" name="T_MG_TIPO_MODAL_T_MG_OPERADORA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 12:10:37 UTC</createdTime>
+<generatorID>ABA14967-C764-4688-BEE1-692302E081AB</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB93C680-46DF-08C0-056F-EFA8BE36918D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

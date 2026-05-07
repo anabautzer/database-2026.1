@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="47C5A9E5-F0CD-5892-0EDE-05D913EEDD8C" containerWithKeyObject="7F69DA58-94A1-8885-934F-AC86AA44715E" localFKIndex="C3EAC564-91EA-C803-DE4B-729B4A4E8607" name="Relation_7_T_MG_VOUCHER_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>7752774C-40F0-373B-03E3-BBD0F01AA78D</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<referredTableLongName>T_MG_VOUCHER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BCC18B01-D0C5-CC49-D3A8-3015CFD24F9F</referredTableID>
+<keyObject>4C108894-3705-82A1-8D35-0C50DA25280A</keyObject>
+<referredKeyID>4C108894-3705-82A1-8D35-0C50DA25280A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_voucher</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

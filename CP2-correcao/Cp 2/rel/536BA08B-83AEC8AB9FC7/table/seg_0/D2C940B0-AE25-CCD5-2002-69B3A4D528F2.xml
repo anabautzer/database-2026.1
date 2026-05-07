@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2C940B0-AE25-CCD5-2002-69B3A4D528F2" name="T_MG_CREDITO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>D8D199A6-95A8-3C73-6EDC-303069D07A16</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_credito" id="2678E57A-F6D5-47BC-47FF-F6F76CEE6196">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>97EFE634-B75D-B552-AA5D-A9051CA91D37</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_credito" id="5F932261-0DEC-53D8-F86E-3375A19DE10F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>DC6FD1D6-AF5F-D0E9-07D2-6BEC0F8F3148</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_utilizado" id="FDCB0C55-660F-7EA9-C682-3172D6E9D05E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>851CFFFC-6EFA-7C93-8A08-D96C49688CD1</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_MG_CARTEIRA_id_carteira" id="7C0D28D8-8234-8E48-5B5C-360125BEB8DD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>CF0E9440-E2F8-5962-40CB-D76E0C771649</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0B5E0D2-C447-65FE-1CFE-B25B27BEB6A6" referredColumn="A093BAA0-5A5D-7CA4-8BFB-98760308639B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A02B176F-3712-CC69-CFD3-6604185386FC" name="T_MG_CREDITO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>A3BFA68C-1E43-CFE0-AE39-DDA3A77C1F30</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2678E57A-F6D5-47BC-47FF-F6F76CEE6196"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7968984-0916-D91D-9DAA-DB6FC36375FF" name="T_MG_CREDITO__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B135AE8A-7426-3147-CB39-D8204DE3316B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7C0D28D8-8234-8E48-5B5C-360125BEB8DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3A96027-46C3-C07D-8E5C-D385A6054D47" name="T_MG_CREDITO_T_MG_CARTEIRA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>B135AE8A-7426-3147-CB39-D8204DE3316B</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C0D28D8-8234-8E48-5B5C-360125BEB8DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

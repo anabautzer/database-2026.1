@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="06684EE3-81DF-4DD2-76D6-24824A6742FF" containerWithKeyObject="DDF5FD67-8ABF-B622-5F13-F1FC618DFA9D" localFKIndex="EE6E19BC-199E-B2E6-9BD1-11A118BAF42C" name="T_MG_VIAGEM_T_MG_LINHA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>0D50D216-2032-085B-CACD-D56632A68199</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<referredTableLongName>T_MG_LINHA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E9A4323E-86C2-01D0-4C7C-71C37C7A2557</referredTableID>
+<keyObject>15611D8A-0605-EBDD-49F5-924B4F8AF017</keyObject>
+<referredKeyID>15611D8A-0605-EBDD-49F5-924B4F8AF017</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_linha</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

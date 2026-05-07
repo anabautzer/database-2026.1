@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCC18B01-D0C5-CC49-D3A8-3015CFD24F9F" name="T_MG_VOUCHER">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>0D36FCDD-43A7-79FC-2A11-46B659EC4E15</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_voucher" id="BE7B799F-EF6E-4AA1-BE04-4FD50CE4603C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>3D15A04E-3347-B7F6-2775-CB7D07A2FAD3</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qr_code" id="1F780FF4-1F07-9FD8-4279-285C77E224CE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>75F7FF4C-346A-63C0-C307-8F0066118DA4</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_voucher" id="908813DD-2EA3-E5A5-D5F8-B7D791949C9D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>686E044A-AD74-F23F-360F-3B2F768F6A07</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_expiracao" id="F34B8C8B-088E-72CA-103F-214CDDC8EE0F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>92D23EBE-BC25-A81E-9461-7911DAC8E70E</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_MG_STATUS_id_status" id="22622FFD-F3F4-A55A-1801-B299B461A251">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>33E1F24F-2865-AF31-4292-4D027336B895</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_MG_CONVERSAO_id_conversao" id="8E34B121-C6E3-6182-E6F1-BD6A4280E31C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>B7879C5C-6C20-0774-865A-730DD86EA757</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_MG_IMPACTO_AMBIENTAL_id_impacto" id="7ACE4C10-F8B5-7688-F9EA-CD33631842B2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>39415F59-12D6-5185-6FF3-19401E68F9FD</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C108894-3705-82A1-8D35-0C50DA25280A" name="T_MG_VOUCHER_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>99CC5ABB-5B2C-757A-3C73-50AB903EA6BF</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE7B799F-EF6E-4AA1-BE04-4FD50CE4603C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCBD228B-86DE-B6A1-6B2C-B64EC1D15799" name="T_MG_VOUCHER__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E3882382-1C3C-B512-E304-04B64B9DC795</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="22622FFD-F3F4-A55A-1801-B299B461A251"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B77D380-5351-C547-9C5D-0553D3F83944" name="T_MG_VOUCHER__IDXv1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BCD44C8D-6653-497C-A300-6A4D70CE7AA7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8E34B121-C6E3-6182-E6F1-BD6A4280E31C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDE3F701-6033-34BD-7093-090CF7D4A1F1" name="T_MG_VOUCHER__IDXv2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>00CBF0F0-6D55-345A-A80F-B2B72FF56CCC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7ACE4C10-F8B5-7688-F9EA-CD33631842B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

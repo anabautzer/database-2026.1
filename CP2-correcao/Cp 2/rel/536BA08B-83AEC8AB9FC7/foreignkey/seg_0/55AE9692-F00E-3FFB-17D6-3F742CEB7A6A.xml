@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="55AE9692-F00E-3FFB-17D6-3F742CEB7A6A" containerWithKeyObject="ACE87487-A3F4-9688-4C4A-58ACE41B27B0" localFKIndex="448F1BA3-5A45-A1E2-3300-A77A56B48308" name="T_MG_USUARIO_T_MG_PARTICIPACAO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>20110CDE-54C4-B8EA-5C73-25A1C4F4D0DB</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<referredTableLongName>T_MG_PARTICIPA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0E328A3B-061D-BA70-C848-544C487E2F95</referredTableID>
+<keyObject>A0525FE2-B292-540A-72A4-DFECAD5918CB</keyObject>
+<referredKeyID>A0525FE2-B292-540A-72A4-DFECAD5918CB</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_paticipa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

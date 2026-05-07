@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FD8AD4D-8CC8-60B0-1FE0-44A0B1B07292" name="T MG TIPO MODAL">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:26:40 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id tipo" id="38FABEFF-4F51-6BB6-E6FF-99F7D45E3B21">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:26:54 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo modal" id="388B825C-3B26-4D50-9CD0-709599D211B0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:27:01 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id operadora" id="18A23CBC-9F98-9959-E046-55DA889BBD22">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 12:09:44 UTC</createdTime>
+<generatorID>ABA14967-C764-4688-BEE1-692302E081AB</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="true"/>
+</engineerTo>
+<referedAttribute>4432342A-C71B-55EB-334A-C249791C6A26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E8263C3-1BED-B77D-7160-98FBDCEB817F" name="T_MG_TIPO_MODAL_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-16 11:27:21 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="536BA08B-7EC6-97AE-7B88-83AEC8AB9FC7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38FABEFF-4F51-6BB6-E6FF-99F7D45E3B21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

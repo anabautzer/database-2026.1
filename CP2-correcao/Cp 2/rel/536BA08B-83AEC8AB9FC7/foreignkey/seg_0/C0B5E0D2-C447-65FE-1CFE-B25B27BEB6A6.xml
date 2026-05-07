@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0B5E0D2-C447-65FE-1CFE-B25B27BEB6A6" containerWithKeyObject="D2C940B0-AE25-CCD5-2002-69B3A4D528F2" localFKIndex="F3A96027-46C3-C07D-8E5C-D385A6054D47" name="T_MG_CREDITO_T_MG_CARTEIRA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>B135AE8A-7426-3147-CB39-D8204DE3316B</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<referredTableLongName>T_MG_CARTEIRA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D1EAFF34-B88C-487D-3F47-20A42A2067DA</referredTableID>
+<keyObject>4381A978-8EA2-9FE2-4B84-0E73EE0BA4C6</keyObject>
+<referredKeyID>4381A978-8EA2-9FE2-4B84-0E73EE0BA4C6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_carteira</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

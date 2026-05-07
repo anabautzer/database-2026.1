@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1EAFF34-B88C-487D-3F47-20A42A2067DA" name="T_MG_CARTEIRA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>48999021-10F5-EEC6-EF74-20C3105EA62C</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<ordsAlias>t_mg_carteira_digital</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_carteira" id="A093BAA0-5A5D-7CA4-8BFB-98760308639B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>57967B40-5F7D-62E7-5EC0-951D4CFB42F2</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sd_credito" id="98C0A3D8-CC65-85A9-D51B-2212007FD22A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>743721DF-AFF8-0B97-5C64-EA000391502A</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sd_ponto" id="CD6C88F8-C600-5A17-9DB5-A67CBBE7EDA3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>388D3FBF-546B-3917-468A-146A71C8C0F0</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_MG_USUARIO_id_aluno" id="497771C0-B83E-E209-DD97-D8EABB4D537E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>3ADE8472-95B8-B18F-4381-2A69476A94B0</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DD56C31-56A3-6460-742E-732256B67DF2" referredColumn="8D6C2676-D2AA-2C35-FAB9-CBEDE5CD8459"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4381A978-8EA2-9FE2-4B84-0E73EE0BA4C6" name="T_MG_CARTEIRA_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>3E527B6B-EC1F-33FF-A9BE-71324915A572</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A093BAA0-5A5D-7CA4-8BFB-98760308639B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AFA24B7-687A-3594-DA95-932B554DC3F5" name="T_MG_CARTEIRA_DIGITAL__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EB1FDD3E-90AA-27F3-8686-762E6FFA7B16</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="497771C0-B83E-E209-DD97-D8EABB4D537E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F524A8F-6C6C-A616-D671-4C208A094CB1" name="T_MG_CARTEIRA_T_MG_USUARIO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>EB1FDD3E-90AA-27F3-8686-762E6FFA7B16</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="497771C0-B83E-E209-DD97-D8EABB4D537E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

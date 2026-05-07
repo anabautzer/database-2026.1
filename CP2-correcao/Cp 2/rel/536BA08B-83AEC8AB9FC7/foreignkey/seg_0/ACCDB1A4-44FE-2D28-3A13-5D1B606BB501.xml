@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ACCDB1A4-44FE-2D28-3A13-5D1B606BB501" containerWithKeyObject="DDF5FD67-8ABF-B622-5F13-F1FC618DFA9D" localFKIndex="64F1EAC4-E46B-03E1-FB69-C9DDFCA299D8" name="T_MG_VIAGEM_T_MG_USUARIO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 11:57:29 UTC</createdTime>
+<generatorID>EAC1B1A7-95FA-F5D4-F26C-86924D291676</generatorID>
+<ownerDesignName>Cp 2</ownerDesignName>
+<referredTableLongName>T_MG_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ACE87487-A3F4-9688-4C4A-58ACE41B27B0</referredTableID>
+<keyObject>7E2B52C6-4FCE-5ECB-70F0-A859DA946060</keyObject>
+<referredKeyID>7E2B52C6-4FCE-5ECB-70F0-A859DA946060</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_aluno</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
