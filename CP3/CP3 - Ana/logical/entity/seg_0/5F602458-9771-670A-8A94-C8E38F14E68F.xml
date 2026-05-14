@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F602458-9771-670A-8A94-C8E38F14E68F" name="T_PWB_COMPOSITOR">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-14 11:14:28 UTC</createdTime>
+<ownerDesignName>CP3 - Ana</ownerDesignName>
+<engineerTo>
+<item key="C50EEAF6-CB83-AC67-EE99-0283CDB0434E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_compositor" id="F9283CB9-C53D-8C24-2B77-C0749B75E7CC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-14 11:20:58 UTC</createdTime>
+<ownerDesignName>CP3 - Ana</ownerDesignName>
+<engineerTo>
+<item key="C50EEAF6-CB83-AC67-EE99-0283CDB0434E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_compositor" id="0B2CA75C-18B7-FAB0-ED40-D7A3F803553F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-14 11:21:13 UTC</createdTime>
+<ownerDesignName>CP3 - Ana</ownerDesignName>
+<engineerTo>
+<item key="C50EEAF6-CB83-AC67-EE99-0283CDB0434E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="16A2AD98-18B2-B8A4-FBEB-28B74857A7FA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-14 11:21:39 UTC</createdTime>
+<ownerDesignName>CP3 - Ana</ownerDesignName>
+<engineerTo>
+<item key="C50EEAF6-CB83-AC67-EE99-0283CDB0434E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ECD2CD4C-27B0-DEF6-7ABE-4DECBC426E9C" name="T_PWB_COMPOSITOR PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-14 11:21:12 UTC</createdTime>
+<ownerDesignName>CP3 - Ana</ownerDesignName>
+<engineerTo>
+<item key="C50EEAF6-CB83-AC67-EE99-0283CDB0434E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9283CB9-C53D-8C24-2B77-C0749B75E7CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

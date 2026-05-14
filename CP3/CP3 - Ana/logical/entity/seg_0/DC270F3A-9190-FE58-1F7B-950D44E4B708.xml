@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC270F3A-9190-FE58-1F7B-950D44E4B708" name="T_PWB_EXECUSAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-14 11:49:29 UTC</createdTime>
+<ownerDesignName>CP3 - Ana</ownerDesignName>
+<engineerTo>
+<item key="C50EEAF6-CB83-AC67-EE99-0283CDB0434E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_execusao" id="CDE66329-E1AD-25F9-3FD6-2DBBC0FC5DC5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-14 11:49:45 UTC</createdTime>
+<ownerDesignName>CP3 - Ana</ownerDesignName>
+<engineerTo>
+<item key="C50EEAF6-CB83-AC67-EE99-0283CDB0434E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_execusao" id="BB87F52D-26B4-97EF-D653-1A14B52FF54F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-14 11:50:08 UTC</createdTime>
+<ownerDesignName>CP3 - Ana</ownerDesignName>
+<engineerTo>
+<item key="C50EEAF6-CB83-AC67-EE99-0283CDB0434E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horario_execusao" id="2DD0A550-1F4D-0509-FCD7-CABE5464B1AE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-14 11:50:23 UTC</createdTime>
+<ownerDesignName>CP3 - Ana</ownerDesignName>
+<engineerTo>
+<item key="C50EEAF6-CB83-AC67-EE99-0283CDB0434E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dia_semana" id="314A7C38-29A4-1A06-A1A3-A1CDE2F8CBDE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-14 12:03:23 UTC</createdTime>
+<ownerDesignName>CP3 - Ana</ownerDesignName>
+<engineerTo>
+<item key="C50EEAF6-CB83-AC67-EE99-0283CDB0434E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="A558498E-CC9A-58EB-62DF-796FCC381686">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-14 11:54:16 UTC</createdTime>
+<generatorID>BE8C8457-1D38-B795-2EF0-DC2C19EC986E</generatorID>
+<ownerDesignName>CP3 - Ana</ownerDesignName>
+<engineerTo>
+<item key="C50EEAF6-CB83-AC67-EE99-0283CDB0434E" value="true"/>
+</engineerTo>
+<referedAttribute>E982E3DA-C5C6-3B1E-F7FB-60DAEB561C48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_musica" id="BCB6D8EC-1C6B-988F-6E40-8E47F101986F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-14 11:54:24 UTC</createdTime>
+<generatorID>8C955B8F-145D-26DE-FF6B-AC81C35EAB43</generatorID>
+<ownerDesignName>CP3 - Ana</ownerDesignName>
+<engineerTo>
+<item key="C50EEAF6-CB83-AC67-EE99-0283CDB0434E" value="true"/>
+</engineerTo>
+<referedAttribute>7596E654-764A-EC88-63CE-DF36793DCB00</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_playlist" id="D405162B-1827-E383-A5EB-CF7AE084296E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-14 11:56:05 UTC</createdTime>
+<generatorID>85596047-4EFA-E7F8-D841-C88E120FCC96</generatorID>
+<ownerDesignName>CP3 - Ana</ownerDesignName>
+<engineerTo>
+<item key="C50EEAF6-CB83-AC67-EE99-0283CDB0434E" value="true"/>
+</engineerTo>
+<referedAttribute>911EB921-43AD-76D6-1E26-8B5207ADD60F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03F2CF5E-3C78-36A9-7A97-5E5D607AF3C1" name="T_PWB_EXECUSAO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-14 11:51:11 UTC</createdTime>
+<ownerDesignName>CP3 - Ana</ownerDesignName>
+<engineerTo>
+<item key="C50EEAF6-CB83-AC67-EE99-0283CDB0434E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CDE66329-E1AD-25F9-3FD6-2DBBC0FC5DC5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
